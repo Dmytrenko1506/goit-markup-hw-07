@@ -234,16 +234,16 @@ img {
 } */
 
 
-.btn:hover,
+/* .btn:hover,
 .btn:focus {
   background-color: var(--btn-active-color);
-}
-.hero__btn {
+} */
+/* .hero__btn {
   padding: 10px 32px;
-}
+} */
 /*-- Modal Window --*/
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -258,8 +258,8 @@ img {
   pointer-events: none;
   transform: scale(0, 0);
   
-}
-.modal-box {
+} */
+/* .modal-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,10 +278,9 @@ img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   overflow-y: auto;
-}
-.modal__btn-close {
+} */
+/* .modal__btn-close {
   position: absolute;
-  
   top: 8px;
   right: 8px;
   width: 30px;
@@ -299,9 +298,9 @@ img {
 .modal__btn-close:hover,
 .modal__btn-close:focus {
   fill: var(--accent-color);
-}
+} */
 
-.modal__title {
+/* .modal__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 1.15;
@@ -309,14 +308,16 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 12px;
-}
-.modal__feedback {
+} */
+/* .modal__feedback {
   display: flex;
   flex-direction: column;
-  
-}
-
-.form-field textarea {
+} */
+/* .form-field {
+  display: flex;
+  flex-direction: column;
+} */
+/* .form-field__input-comment {
   resize: none;
   width: 448px;
   height: 120px;
@@ -326,23 +327,20 @@ img {
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-.form-field__input-comment:hover, 
+} */
+/* .form-field__input-comment:hover, 
 .form-field__input-comment:focus {
   border-color: var(--accent-color)
-}
+} */
 
-.form-field__comment {
+/* .form-field__comment {
   margin-bottom: 20px;
-}
-.form-field {
-  display: flex;
-  flex-direction: column;
-}
-.form-field--position {
+} */
+
+/* .form-field--position {
 margin-bottom: 10px;
-}
-.form-field__lable {
+} */
+/* .form-field__lable {
   margin-bottom: 4px;
 
   font-size: 12px;
@@ -350,7 +348,8 @@ margin-bottom: 10px;
   letter-spacing: 0.01em;
 
   color: var(--primery-text-color);
-}
+} */
+/* 
 .form-field__input {
   width: 100%;
   height: 40px;
@@ -360,58 +359,56 @@ margin-bottom: 10px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-}
-.form-field__input:focus,
+} */
+/* .form-field__input:focus,
 .form-field__input:hover {
   border-color: var(--accent-color);
 
-}
-.form-field__icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.form-field__input:hover + .form-field__icon, 
+}  */
+ 
+/* .form-field__input:hover + .form-field__icon, 
 .form-field__input:focus + .form-field__icon {
   fill: var(--accent-color);
- }
+ } */
 
-.field-input {
+/* .field-input {
   position: relative;
   width: 448px;
-}
-.form-field__icon {
+} */
+/* .form-field__icon {
   position: absolute;
   top: 50%;
   left: 12px;
   transform: translateY(-50%);
   fill: var(--title-text-color);
-  
-}
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}  */
 
-.agree {
+/* .agree {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 448px;
   margin-bottom: 30px;
-}
+} */
 
-.agree__link {
+/* .agree__link {
   color: var(--accent-color);
-}
-.agree__lable {
+} */
+/* .agree__lable {
 position: relative;
  
   line-height: 1.71;
-}
-.agree__input {
+} */
+/* .agree__input {
   appearance: none;
-}
-.agree__input:checked + .agree__check {
+} */
+/* .agree__input:checked + .agree__check {
   fill: var(--accent-color);
   border: none;
-}
+} */
 
-.agree__check {
+/* .agree__check {
   position: absolute;
   left: -23px;
   top: 50%;
@@ -419,16 +416,16 @@ position: relative;
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
   fill: transparent;
-}
-.agree__btn {
+} */
+/* .agree__btn {
   margin-left: auto;
   margin-right: auto;
   padding: 10px 52px;
     
-}
+} */
 
 /* --Benefits-- */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -439,18 +436,18 @@ position: relative;
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.benefits__list {
+/* .benefits__list {
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.benefits__item {
+/* .benefits__item {
   width: 270px;
-}
+} */
 
-.benefits__icon {
+/* .benefits__icon {
   width: 270px;
   height: 120px;
   background-color: var(--secondary-bgc-color);
@@ -458,19 +455,19 @@ position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
-.benefits__title {
+/* .benefits__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
-}
+} */
 
-.benefits__text {
+/* .benefits__text {
   line-height: 1.71;
-}
+} */
 
 /* --Portfolio-- */
 

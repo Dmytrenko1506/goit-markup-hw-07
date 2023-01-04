@@ -2,15 +2,25 @@
 @import './utils/variables';
 // Base reset
 @import './base/base-reset';
+// Visually-hidden
+@import './utils/visually-hidden';
 // Page-header
 @import './components/page-header';
 // Logo
 @import './components/logo';
 // Site-navigation
 @import './components/site-navigation';
-// Navigatio-contact
+// Navigation-contact
 @import './components/contact';
 // Page-hero
 @import './components/page-hero';
 // BTN
 @import './components/btn';
+// Backdrop
+@import './components/backdrop';
+// Is-hidden
+@import './components/is-hidden';
+// Modal
+@import './components/modal';
+// Page-Benefits
+@import './components/page-benefits';
