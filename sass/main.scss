@@ -1,8 +1,10 @@
 // Variables
+@import './base/typography';
 @import './utils/variables';
 // Base reset
+
 @import './base/base-reset';
-@import './base/typography';
+
 // Visually-hidden
 @import './utils/visually-hidden';
 // Page-header
