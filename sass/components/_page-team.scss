@@ -19,12 +19,13 @@
     border-radius: 0px 0px 4px 4px;
     &__thumb {
             padding: 30px 0;
+            background-color: $whiteColor;
         }
     &__title {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19;
-    
+        color: $titleTextColor;
         text-align: center;
         letter-spacing: 0.03em;
         margin-bottom: 10px;
